@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "615907428377",
+    "project_id": "whatsapp1-f6f14",
+    "storage_bucket": "whatsapp1-f6f14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615907428377:android:497fd762e1efbf68610288",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615907428377-1kkeb0123jdj47ea5c4b5psc53022tlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARPIg2Q_Y3EA-HpjNhpw-QMs-Qanncms8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615907428377-1kkeb0123jdj47ea5c4b5psc53022tlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

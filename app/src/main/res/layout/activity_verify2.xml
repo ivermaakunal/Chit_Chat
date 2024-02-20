@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EAF8"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="150dp"
+        app:cardBackgroundColor="#C769FA"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tx11"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:text="OTP Verification!"
+                android:textColor="#FFFFFF"
+                android:textSize="29dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="Enter the OTP you received to your number"
+                android:layout_below="@+id/tx11"
+                android:id="@+id/tx12"
+                android:textColor="@color/white"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                />
+
+
+            <EditText
+                android:id="@+id/otp"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:hint="Enter OTP "
+                android:textColor="#FFFFFF"
+                android:background="@drawable/input1"
+                android:textColorHint="#97FFFFFF"
+                android:textSize="18dp"
+                android:paddingLeft="9dp"
+                android:layout_below="@+id/tx12"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                />
+            
+            <TextView
+                android:id="@+id/resend"
+                android:layout_width="91dp"
+                android:layout_height="19dp"
+                android:text="Resend OTP"
+
+                android:drawableEnd="@drawable/resend"
+                android:layout_below="@+id/otp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="35dp"
+                android:textStyle="italic"
+                android:textSize="14dp"
+                android:drawablePadding="5dp"
+                android:textColor="#87BCDA"
+            />
+            
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/input1"
+        android:text="Verify OTP"
+        android:id="@+id/verify_otp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        android:textColor="@color/white"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
